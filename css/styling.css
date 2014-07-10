@@ -30,9 +30,10 @@ body{
     background-color: #3498db;
 }
 /*.focs{*/
-    /**/
-    /**/
+    /*border-radius: 5px;*/
+
 /*}*/
+
 .sbc{
     background-color: #ffffff!important;
 }
@@ -41,13 +42,16 @@ li.focs:hover >.dropdown-menu{
     outline: none;
     display: block!important;
     -webkit-transition: width 1s linear 2s;
+
 }
 li.focs:hover{
     background-color:#3498db ;
+    border-radius: 5px;
 }
 .focs a:hover,a::selection, a:focus{
     color: #ffffff!important;
     background-color:#3498db!important;
+    border-radius: 5px;
 }
 /*li:hover{*/
     /*color: #ffffff;*/
@@ -76,11 +80,183 @@ li.focs:hover{
 .setbordr{
     border-bottom: 1px solid #dddddd;
 }
+.anim{
+    -webkit-animation-fill-mode: both;
+    text-align: justify;
+}
+.media-heading{
+   text-align: left;
+   height: 52px;
+}
+
+.icon_wrapper{
+    color: #ffffff;
+    background: #0FBCF5;
+    font-size: 25px;
+    width: 50px;
+    height: 48px;
+    /* padding: 0px; */
+    padding-left: 17px;
+    padding-top: 5px;
+    border: 3px none #cccccc;
+    box-shadow: none;
+    border-radius: 3px;
+}
+
+/*services icons*/
+.ecom{
+    font-size: 32px;
+    margin-top: 3px;
+    margin-left: -8px;
+}
+.ria{
+    font-size: 35px;
+    margin-top: 5px;
+    margin-left: -7px;
+}
+.cms{
+    font-size: 32px;
+    margin-top: 3px;
+    margin-left: -6px;
+}
+.mob{
+    font-size: 46px;
+    margin-top: -4px;
+    margin-left: -2px;
+}
+
+.web{
+    font-size: 38px;
+    margin-left: -8px;
+}
+
+ul{
+    list-style-type: none;
+}
 
 
+/*panel images*/
+.feature_image{
+    max-width: 100%!important;
+}
+
+/*testimnonials*/
+.customer_nm{
+    text-align: right;
+    font-weight: bold;
+}
+
+.customer_post{
+    text-align: right;
+}
+
+
+/*about*/
+.setheight{
+    height: 160px;
+}
+
+li{
+    margin-bottom: 10px!important;
+    color: #0FBCF5 ;
+}
+.ulink{
+    background: url(../images/worldmap.png) no-repeat;
+    background-position: bottom;
+}
+
+img.black{
+    width: 140px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
 
 
 /*theming*/
+
+
+
+/*---------------*/
+/***** Chico *****/
+/*---------------*/
+
+figure.effect-chico img {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(1.12);
+    transform: scale(1.12);
+}
+
+figure.effect-chico:hover img {
+    opacity: 0.5;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+figure.effect-chico figcaption {
+    padding: 3em;
+}
+
+figure.effect-chico figcaption::before {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    border: 1px solid #fff;
+    content: '';
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+figure.effect-chico figcaption::before,
+figure.effect-chico p {
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-chico h2 {
+    padding: 20% 0 20px 0;
+}
+
+figure.effect-chico p {
+    margin: 0 auto;
+    max-width: 200px;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+figure.effect-chico:hover figcaption::before,
+figure.effect-chico:hover p {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+/*@media screen and (max-width: 69.5em) {*/
+    /*.grid figure {*/
+        /*width: 50%;*/
+    /*}*/
+
+    /*.grid figure figcaption {*/
+        /*font-size: 90%;*/
+    /*}*/
+/*}*/
+
+
+/*@media screen and (max-width: 41.5em) {*/
+
+    /*.grid figure {*/
+        /*width: 100%;*/
+    /*}*/
+/*}*/
+
+
+
+
+
 
 
 
